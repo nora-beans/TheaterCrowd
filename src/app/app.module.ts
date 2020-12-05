@@ -7,6 +7,8 @@ import { HomeScreenComponent } from './home-screen/home-screen.component';
 import { SearchScreenComponent } from './search-screen/search-screen.component';
 import { PersonScreenComponent } from './person-screen/person-screen.component';
 import { MovieScreenComponent } from './movie-screen/movie-screen.component';
+import { AddScreenComponent } from './add-screen/add-screen.component';
+import { EditScreenComponent } from './edit-screen/edit-screen.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MovieScreenComponent } from './movie-screen/movie-screen.component';
     HomeScreenComponent,
     SearchScreenComponent,
     PersonScreenComponent,
-    MovieScreenComponent
+    MovieScreenComponent,
+    AddScreenComponent,
+    EditScreenComponent
   ],
   imports: [
     BrowserModule,
