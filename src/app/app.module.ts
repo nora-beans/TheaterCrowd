@@ -9,6 +9,7 @@ import { PersonScreenComponent } from './person-screen/person-screen.component';
 import { MovieScreenComponent } from './movie-screen/movie-screen.component';
 import { AddScreenComponent } from './add-screen/add-screen.component';
 import { EditScreenComponent } from './edit-screen/edit-screen.component';
+import { AwardScreenComponent } from './award-screen/award-screen.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { EditScreenComponent } from './edit-screen/edit-screen.component';
     PersonScreenComponent,
     MovieScreenComponent,
     AddScreenComponent,
-    EditScreenComponent
+    EditScreenComponent,
+    AwardScreenComponent
   ],
   imports: [
     BrowserModule,
